@@ -1,0 +1,12 @@
+uuid: 5226ea6d-9c2f-4446-9984-4aef3d03e879
+langcode: en
+status: true
+dependencies: {  }
+id: user_avatar
+label: 'User Avatar'
+code: '.user-avatar img { border-radius: 50% !important; }'
+conditions_require_all: true
+conditions: {  }
+contexts: {  }
+media: all
+preprocess: true

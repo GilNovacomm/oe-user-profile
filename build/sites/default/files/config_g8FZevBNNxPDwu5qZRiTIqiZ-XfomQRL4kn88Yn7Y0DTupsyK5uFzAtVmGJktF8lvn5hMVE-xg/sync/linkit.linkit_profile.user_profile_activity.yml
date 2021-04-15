@@ -1,0 +1,9 @@
+uuid: 621d743c-b538-4c99-831d-15b008f42440
+langcode: en
+status: true
+dependencies: {  }
+id: user_profile_activity
+label: 'User Profile Activity'
+description: 'Left panel anchor links on user profile linked to sections'
+attributes: {  }
+matchers: {  }

@@ -1,0 +1,14 @@
+uuid: f6a6b352-9a59-4464-afa8-72202398e7fb
+name: OpenEuropa
+mail: info@example.org
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

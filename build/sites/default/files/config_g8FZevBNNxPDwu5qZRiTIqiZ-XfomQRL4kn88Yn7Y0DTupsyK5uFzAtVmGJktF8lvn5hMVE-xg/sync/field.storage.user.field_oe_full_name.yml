@@ -1,0 +1,21 @@
+uuid: f24d40c5-e3a4-4e24-9570-f3d692bbfeea
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+    - viewfield
+    - views
+id: user.field_oe_full_name
+field_name: field_oe_full_name
+entity_type: user
+type: viewfield
+settings:
+  target_type: view
+module: viewfield
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

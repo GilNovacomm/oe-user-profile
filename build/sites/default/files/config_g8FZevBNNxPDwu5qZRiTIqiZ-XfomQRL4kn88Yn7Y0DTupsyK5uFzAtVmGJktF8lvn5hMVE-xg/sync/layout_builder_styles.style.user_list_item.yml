@@ -1,0 +1,11 @@
+uuid: 47edca06-ff24-4201-b554-91f55081e89d
+langcode: en
+status: true
+dependencies: {  }
+id: user_list_item
+label: 'User list item'
+classes: user-list-item
+type: section
+weight: 0
+block_restrictions: {  }
+layout_restrictions: {  }

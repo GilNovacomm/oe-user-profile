@@ -1,0 +1,21 @@
+uuid: 0152588d-8a5f-48e7-ad39-7138d61315ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+    - viewfield
+    - views
+id: user.field_oe_user_position
+field_name: field_oe_user_position
+entity_type: user
+type: viewfield
+settings:
+  target_type: view
+module: viewfield
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

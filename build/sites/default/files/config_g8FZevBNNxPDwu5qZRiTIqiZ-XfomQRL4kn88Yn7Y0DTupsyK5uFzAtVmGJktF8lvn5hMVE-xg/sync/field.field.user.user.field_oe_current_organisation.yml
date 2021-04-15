@@ -1,0 +1,20 @@
+uuid: 045c66b7-0b86-49f7-8b76-8af792b90fe3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_oe_current_organisation
+  module:
+    - user
+id: user.user.field_oe_current_organisation
+field_name: field_oe_current_organisation
+entity_type: user
+bundle: user
+label: 'Current organisation'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

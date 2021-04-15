@@ -1,0 +1,12 @@
+uuid: d05dd65c-22da-4a88-804b-c632e0ed0788
+langcode: en
+status: true
+dependencies: {  }
+id: user_avatar
+label: 'User Avatar'
+classes: user-avatar
+type: component
+weight: 0
+block_restrictions:
+  - 'field_block:user:user:field_oe_photo'
+layout_restrictions: {  }
