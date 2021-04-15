@@ -1,8 +1,0 @@
-uuid: 0df9675b-d81e-4172-a4d3-4e8f5485b34f
-langcode: en
-status: true
-dependencies: {  }
-id: comment
-label: Comment
-target_entity_type_id: node
-description: ''

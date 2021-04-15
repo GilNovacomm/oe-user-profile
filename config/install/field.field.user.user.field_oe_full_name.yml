@@ -1,0 +1,46 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_oe_full_name
+    - views.view.oe_user_information
+  module:
+    - user
+    - viewfield
+id: user.user.field_oe_full_name
+field_name: field_oe_full_name
+entity_type: user
+bundle: user
+label: 'Full Name'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    token_help: ''
+    display_id: block_1
+    arguments: ''
+    items_to_display: ''
+    target_uuid: 7190e1ae-eb59-410a-96e8-545d302a09ca
+default_value_callback: ''
+settings:
+  force_default: true
+  allowed_views:
+    oe_user_information: oe_user_information
+    content: '0'
+    files: '0'
+    frontpage: '0'
+    user_admin_people: '0'
+    content_recent: '0'
+    oe_user_fullname: '0'
+    watchdog: '0'
+    who_s_new: '0'
+    who_s_online: '0'
+  allowed_display_types:
+    block: '0'
+    feed: '0'
+    default: '0'
+    page: '0'
+  handler: 'default:view'
+  handler_settings: {  }
+field_type: viewfield

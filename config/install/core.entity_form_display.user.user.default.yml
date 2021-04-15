@@ -1,0 +1,108 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_oe_current_organisation
+    - field.field.user.user.field_oe_current_position
+    - field.field.user.user.field_oe_enable_contact_form
+    - field.field.user.user.field_oe_first_name
+    - field.field.user.user.field_oe_full_name
+    - field.field.user.user.field_oe_last_name
+    - field.field.user.user.field_oe_photo
+    - field.field.user.user.field_oe_profile_description
+    - field.field.user.user.field_oe_social_media_links
+    - field.field.user.user.field_oe_user_position
+    - field.field.user.user.field_oe_user_total_comments
+    - image.style.thumbnail
+  module:
+    - image
+    - social_link_field
+    - text
+    - user
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_oe_current_organisation:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_oe_current_position:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_oe_enable_contact_form:
+    weight: 10
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_oe_first_name:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_oe_last_name:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_oe_photo:
+    weight: 8
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_oe_profile_description:
+    weight: 7
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_oe_social_media_links:
+    weight: 9
+    settings:
+      select_social: false
+      disable_weight: false
+    third_party_settings: {  }
+    type: social_links
+    region: content
+  language:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  timezone:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_oe_full_name: true
+  field_oe_user_position: true
+  field_oe_user_total_comments: true

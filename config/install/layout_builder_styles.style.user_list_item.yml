@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: user_list_item
+label: 'User list item'
+classes: user-list-item
+type: section
+weight: 0
+block_restrictions: {  }
+layout_restrictions: {  }

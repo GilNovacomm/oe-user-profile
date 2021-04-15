@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.user_
+label: 'User list item'
+targetEntityType: user
+cache: true

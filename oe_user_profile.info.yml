@@ -1,6 +1,28 @@
-name: OpenEuropa template
-description: OpenEuropa Drupal module template.
+name: OpenEuropa User Profile
+description: OpenEuropa User profile.
 package: OpenEuropa
 
 type: module
 core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:ckeditor
+  - drupal:image
+  - drupal:text
+  - drupal:content_translation
+  - drupal:language
+  - drupal:field
+  - drupal:views
+  - drupal:layout_builder
+  - drupal:layout_discovery
+  - drupal:field_layout
+  - drupal:comment
+  - viewfield:viewfield
+  - string_field_formatter:string_field_formatter
+  - text_field_formatter:text_field_formatter
+  - asset_injector:asset_injector
+  - layout_builder_ids:layout_builder_ids
+  - layout_builder_styles:layout_builder_styles
+  - lb_section_navigation:lb_section_navigation
+  - social_link_field:social_link_field
+  - views_infinite_scroll:views_infinite_scroll
