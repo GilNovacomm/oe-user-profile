@@ -1,6 +1,14 @@
 # OpenEuropa oe_user_profile
 
-The OpenEuropa oe_user_profile provides ...`[One Paragraph of project description goes here]`
+The OpenEuropa oe_user_profile provides the default user profile is used for storing data of the information type "User". It only concerned the storing of data of authenticated users.
+
+These data are displayed in various pages of the communities’ site as well as data related to their membership preferences.
+
+A user profile is created once an "anonymous user" registers on the site from her/his EU Login account.
+
+## EU Login / CAS fields
+To have User Profile fields automatically update with CAS information we suggest using the module [CAS Attributes](https://www.drupal.org/project/cas_attributes).
+CAS Attributes allows for field mapping between the user profile and user information available from the Central Authentication System.
 
 ## Development setup
 
